@@ -1,3 +1,7 @@
 # math4610
 
-This is the readme initial document
+This repository has been created to document and upload the tasksheets assigned in USU math4610.
+
+Link to Table of contents
+
+Link to software manual
