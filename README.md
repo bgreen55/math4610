@@ -7,3 +7,4 @@ Link to Table of contents
 Link to software manual
 
 Software Manual.md
+https://github.com/bgreen55/math4610/blob/ea1dfaf9654e40ed3dcba9af6f990e95e9425be6/Software%20Manual.md
