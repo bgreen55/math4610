@@ -5,7 +5,7 @@ This repository has been created to document and upload the tasksheets assigned 
 
 ## Link to Table of Contents:
 
-* [Table of Contents](TableofContents.md)
+* [Table of Contents](TableOfContents.md)
 * 
 * [Homework](homework/Readme.md)
 
