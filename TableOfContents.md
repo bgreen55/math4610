@@ -7,11 +7,9 @@ The repository that you are looking at is contains homework submited in USU's Ma
 
 * [Homework](homework/Readme.md)
 
-* [Math 4610 Syllabus](../syllabus/README.md)
 
 
 
 
 [Previous](README.md) |
-[Table of Contents](./README.md) |
-[Next](../syllabus/README.md)
+[Table of Contents](TableOfContents.md) |
