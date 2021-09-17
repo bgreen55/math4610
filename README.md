@@ -3,11 +3,8 @@
 This repository has been created to document and upload the tasksheets assigned in USU math4610.
 
 
-## Link to Table of Contents:
 
 * [Table of Contents](TableOfContents.md)
-* 
-* [Homework](homework/Readme.md)
 
 
 
