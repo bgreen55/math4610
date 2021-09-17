@@ -5,11 +5,11 @@
 
 * [Homework](homework/Readme.md)
 * [Software Manual](SoftwareManual.md)
-*
+
 
 
 
 
 
 [Home](README.md) |
-[Table of Contents](TableOfContents.md) |
+[Table of Contents](TableOfContents.md) 
