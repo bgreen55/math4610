@@ -5,7 +5,7 @@ The repository that you are looking at is contains homework submited in USU's Ma
 
 ## Links to Math 4610 Material:
 
-* [Homework](../homework/Readme.md)
+* [Homework](homework/Readme.md)
 
 * [Math 4610 Syllabus](../syllabus/README.md)
 
