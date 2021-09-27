@@ -4,7 +4,7 @@
 
 
 * [Homework](homework/Readme.md)
-* [Software Manual](SoftwareManual.md)
+* [Software Manual](software_manual/README.md)
 
 
 
