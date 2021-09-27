@@ -4,16 +4,11 @@
 
 **Author:** Bradley Green
 
-**Language:** Python. The code was built using Pycharm.
+**Language:** Python. The code was built using Pycharm. Can be run in terminal by:
 
-For example,
 
-    gfortran smaceps.f
+    python3 maceps.py
 
-will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
-better
-
-    gfortran -o smaceps smaceps.f
 
 **Description/Purpose:** This routine will compute the single precision value for the machine epsilon or the number of digits
 in the representation of real numbers in single precision. This is a routine for analyzing the behavior of any computer. This
@@ -27,21 +22,10 @@ computer being queried.
 
 **Usage/Example:**
 
-The routine has two arguments needed to return the values of the precision in terms of the smallest number that can be
-represented. Since the code is written in terms of a Fortran subroutine, the values of the machine machine epsilon and
-the power of two that gives the machine epsilon. Due to implicit Fortran typing, the first argument is a single precision
-value and the second is an integer.
+The routine has no arguments.  It runs an iteration dividing 1 in half each iteration and adding that number, epsilon, to 1.  Once epsilon is so that 
+epsilon plus 1 equals 1 the iteration breaks.  Each iteration before hand prints out including the size of epsilon in 32 bit size. 
 
-      call smaceps(sval, ipow)
-      print *, ipow, sval
 
-Output from the lines above:
-
-      24   5.96046448E-08
-
-The first value (24) is the number of binary digits that define the machine epsilon and the second is related to the
-decimal version of the same value. The number of decimal digits that can be represented is roughly eight (E-08 on the
-end of the second value).
 
 **Implementation/Code:** The following is the code for smaceps()
 
