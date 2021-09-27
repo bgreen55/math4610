@@ -6,7 +6,7 @@ You can find everything through the table of contents.
 
 
 * [Table of Contents](TableOfContents.md)
-* [Software Manual](softwaremanual/README.md)
+* [Software Manual](software_manual/README.md)
 
 
 
