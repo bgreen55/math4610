@@ -13,4 +13,4 @@ This is the table of contents for the all software manuals
 
 
 [Home](README.md) |
-[Table of Contents](TableOfContents.md) 
+[Table of Contents](/TableOfContents.md) 
