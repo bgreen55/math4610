@@ -4,7 +4,7 @@ define an entry in your software manual.
 
 **Routine Name:**           smaceps
 
-**Author:** Joe Koebbe
+**Author:** 
 
 **Language:** Fortran. The code can be compiled using the GNU Fortran compiler (gfortran).
 
