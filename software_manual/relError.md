@@ -7,7 +7,7 @@
 **Language:** Python. The code was built using Pycharm. Can be run in terminal by:
 
 
-    python3 ewlError.py
+    python3 relError.py
 
 
 **Description/Purpose:** This routine will compute the relative error of using a number x to approximate a number 
