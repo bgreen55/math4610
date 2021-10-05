@@ -6,6 +6,8 @@ This is the table of contents for the all software manuals
 
 * [smaceps](smaceps.md)
 * [dmaceps](dmaceps.md)
+* [absError](absError.md)
+* [relError](relError.md)
 
 
 
