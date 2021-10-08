@@ -24,13 +24,56 @@ The routine takes between 2 and 6 arguments.  It can take any where from 1 to 5 
 
 
 
-**Implementation/Code:** The following is the code for relError(x, xexact)
+**Implementation/Code:** The following is the code for graphing()
 
     
-    def relError(x, xexact):
-        error = abs(x - xexact) / xexact
-        return error
     
+    from matplotlib import pyplot as plt
+
+    def graph(expression, maxX, line):
+        x = 0
+        inc = .2
+
+        xlist = []
+        ylist = []
+
+        xlist.append(x)
+        ylist.append(eval(expression))
+        while x < maxX:
+            x = x + inc
+            ylist.append(eval(expression))
+            xlist.append(x)
+
+        plt.plot(xlist, ylist, label="exp. " + str(line))
+
+
+    def graphing():
+        print("Input up to four expressions you would like to plot (input expressions in python syntax):\n")
+
+        expressions = []
+        i = 1
+        while i < 5:
+            a = str(input("Expression " + str(i) + ": "))
+            if a == "":
+                i = 6
+            else:
+                i += 1
+                expressions.append(a)
+
+        maxX = int(input("Input the max X value: "))
+
+        plt.xlabel('x axis')
+        plt.ylabel('y axis')
+        j = 1
+        for exp in expressions:
+            graph(exp, maxX, j)
+            j += 1
+
+        plt.legend()
+        plt.show()
+
+    graphing()
+
 
 
 **Last Modified:** October/2021
