@@ -9,6 +9,8 @@ This is the table of contents for the all software manuals
 * [absError](absError.md)
 * [relError](relError.md)
 * [2DGraphics](2DGraphics.md)
+* [funcIter](funcIter.md)
+* [bisection](bisection.md)
 
 
 
