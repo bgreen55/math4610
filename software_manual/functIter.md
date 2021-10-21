@@ -9,7 +9,8 @@
     python3 funcIter.py
 
 
-**Description/Purpose:** This routine will use functional iteration to approximate a root of a function.
+**Description/Purpose:** This routine will use functional iteration to approximate a root of a function. A fucntion f(x) that takes x as the x variable in a 
+funtion must be defined before hand. 
 
 **Input:** The input takes real numbers.  The first input of the function(xnot) is your guess of the root. The second input is the tolerance you want to have 
 in the approximation of the root and the last input to the function is the maximum number of iterations you want the function to run if the tolerance in the 
