@@ -11,6 +11,7 @@ This is the table of contents for the all software manuals
 * [2DGraphics](2DGraphics.md)
 * [funcIter](funcIter.md)
 * [bisection](bisection.md)
+* [NewtonsMethod](newtonsMethod.md)
 
 
 
