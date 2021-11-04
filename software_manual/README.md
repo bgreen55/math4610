@@ -12,6 +12,7 @@ This is the table of contents for the all software manuals
 * [funcIter](funcIter.md)
 * [bisection](bisection.md)
 * [NewtonsMethod](newtonsMethod.md)
+* [SecantMethod](secantMethod.md)
 
 
 
