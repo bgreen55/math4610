@@ -26,7 +26,7 @@ The routine takes three arguments. The first is the approximation of the root.  
 of the root must be close enough to the true root for the method to converge on the root, or the method will diverge and report an incorrect root.
 
 
-**Implementation/Code:** The following is the code for bisection(a, b, tol, maxIter)
+**Implementation/Code:** The following is the code for newtonsMethod(x, tol, maxIter)
 
     
 
