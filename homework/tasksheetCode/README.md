@@ -8,5 +8,5 @@ This is the directory where all my code files will be saved
 
 
 
-[Back](../homework/Readme.md) |
+[Back](../Readme.md) |
 [Table of Contents](../../TableOfContents.md) 
