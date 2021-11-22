@@ -18,5 +18,5 @@ This is the table of contents for the all software manuals
 
 
 
-[Home](../README.md) |
-[Table of Contents](../TableOfContents.md) 
+[Home](../README.md) 
+
