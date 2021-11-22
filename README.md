@@ -7,7 +7,7 @@ You can find everything through the table of contents.
 
 * [Table of Contents](TableOfContents.md)
 * [Software Manual](software_manual/README.md)
-* [Homework Pdfs]()
+* [Homework Pdfs](homework/Readme.md)
 
 
 
