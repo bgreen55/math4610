@@ -15,6 +15,7 @@ This is the table of contents for the all software manuals
 * [bisection](routines/bisection.md)
 * [NewtonsMethod](routines/newtonsMethod.md)
 * [SecantMethod](routines/secantMethod.md)
+* [Hybrid Method](routines/HybridMethod.md)
 
 
 
