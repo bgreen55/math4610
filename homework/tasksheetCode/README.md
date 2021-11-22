@@ -18,5 +18,4 @@ This is the directory where all my code files will be saved
 
 
 
-[Back](../Readme.md) |
-[Table of Contents](../../TableOfContents.md) 
+[Back](../Readme.md) 
