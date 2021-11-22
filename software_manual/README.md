@@ -16,6 +16,7 @@ This is the table of contents for the all software manuals
 * [NewtonsMethod](routines/newtonsMethod.md)
 * [SecantMethod](routines/secantMethod.md)
 * [Hybrid Method](routines/HybridMethod.md)
+* [ModedHybrid Method](routines/ModedHybridMethod.md)
 
 
 
