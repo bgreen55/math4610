@@ -4,7 +4,7 @@ This is the table of contents for the all software manuals
 
 
 
-* [smaceps](smaceps.md)
+* [smaceps](routines/smaceps.md)
 * [dmaceps](dmaceps.md)
 * [absError](absError.md)
 * [relError](relError.md)
