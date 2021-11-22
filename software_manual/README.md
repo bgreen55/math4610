@@ -20,6 +20,8 @@ This is the table of contents for the all software manuals
 * [Secant Hybrid Method](routines/SecantHybridMethod.md)
 * [Find All Roots Hybrid Method](routines/AllRootsHybridMethod.md)
 
+#### Linear System Routines
+
 
 
 [Home](../README.md) 
