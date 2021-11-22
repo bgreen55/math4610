@@ -17,6 +17,8 @@ This is the table of contents for the all software manuals
 * [SecantMethod](routines/secantMethod.md)
 * [Hybrid Method](routines/HybridMethod.md)
 * [ModedHybrid Method](routines/ModedHybridMethod.md)
+* [Secant Hybrid Method](routines/SecantHybridMethod.md)
+* [Find All Roots Hybrid Method](routines/AllRootsHybridMethod.md)
 
 
 
