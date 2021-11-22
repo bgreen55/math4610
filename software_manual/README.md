@@ -5,16 +5,16 @@ This is the table of contents for the all software manuals
 
 
 * [smaceps](routines/smaceps.md)
-* [dmaceps](dmaceps.md)
-* [absError](absError.md)
-* [relError](relError.md)
-* [2DGraphics](2DGraphics.md)
+* [dmaceps](routines/dmaceps.md)
+* [absError](routines/absError.md)
+* [relError](routines/relError.md)
+* [2DGraphics](routines/2DGraphics.md)
 
 #### Root Finidng Methods
-* [funcIter](funcIter.md)
-* [bisection](bisection.md)
-* [NewtonsMethod](newtonsMethod.md)
-* [SecantMethod](secantMethod.md)
+* [funcIter](routines/funcIter.md)
+* [bisection](routines/bisection.md)
+* [NewtonsMethod](routines/newtonsMethod.md)
+* [SecantMethod](routines/secantMethod.md)
 
 
 
