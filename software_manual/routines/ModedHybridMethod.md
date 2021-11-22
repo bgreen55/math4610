@@ -10,7 +10,7 @@
 
 
 **Description/Purpose:** This routine will approximate the root of a function using a hybrid method.  A function defined as f(x) and its derivative must be defined
- to be passed into the routine. 
+ to be passed into the routine. This implementation of the hybrid method works better than our previous implementation of the hybrid method. 
 
 **Input:** The input takes real numbers.  The first two inputs, a and b, is the interval you want to search for a root between. The next input x0 is the 
 best apporximation of where the root is.  The next to inputs are used to pass in the function and its derivative in which you are searching for the root.
