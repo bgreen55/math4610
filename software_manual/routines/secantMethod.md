@@ -46,6 +46,11 @@ and report an incorrect root.
             f0 = f(x0)
             f1 = f(x1)
         return x2
+        
+        
+    def f(x):
+        return (x * math.exp((3 * (x * x)))) - (7 * x)
+        
     
     def main():
         result = newtonsMethod(5, .001, 130)
@@ -55,6 +60,8 @@ and report an incorrect root.
     main()   
     
    
+Running this example, the secantMethod approximated a root to be at 0.805365987889971.  This is a close approximation to one of the roots of
+ the function which is located at 0.805.
 
 
 **Last Modified:** November/2021
