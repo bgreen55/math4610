@@ -26,9 +26,9 @@ The routine takes three arguments. The first is the approximation of the root.  
 of the root must be close enough to the true root for the method to converge on the root, or the method will diverge and report an incorrect root.
 
 
-**Implementation/Code:** The following is the code for newtonsMethod(x, tol, maxIter)
+**Implementation/Code:** The following is an example of the code for newtonsMethod(x, tol, maxIter)
 
-    
+    import math
 
     def newtonsMethod(x, tol, maxIter):
         f0 = f(x)
@@ -43,6 +43,15 @@ of the root must be close enough to the true root for the method to converge on 
             f0 = f(x)
             df0 = df(x)
         return x1
+        
+    
+    def f(x):
+        return (x * math.exp((3 * (x * x)))) - (7 * x)
+        
+        
+    def df(x):
+        return (6 * (x * x) * math.exp(3 * (x * x))) + math.exp(3 * (x * x)) - 7
+        
     
     def main():
         result = newtonsMethod(5, .001, 130)
@@ -51,6 +60,10 @@ of the root must be close enough to the true root for the method to converge on 
     
     main()   
    
+
+
+Running this example of code returns the root 0.8053798584674438.  This is one of the three roots the provided function had and is a close approximation
+of the actual root which was 0.805
 
 
 **Last Modified:** November/2021
