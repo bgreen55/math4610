@@ -25,6 +25,7 @@ This is the table of contents for the all software manuals
 * [LU factorization](routines/LUFactor.md)
 * [LU on Hilbert Matrices](routines/LUonHilbertMatrices.md)
 * [GE using scaled Partial Pivoting](routines/GEAndBackSubScaledPivot.md)
+* [Pivoting on Hilbert Matrices](routines/PartialPivotingagainstHilbert.md)
 
 
 
