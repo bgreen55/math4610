@@ -85,7 +85,9 @@ Then tolerance and the last is max iterations.  A root must be encompassed in th
 
     main()
 
-    
+
+Running the routine above results in approximating a root at 1.75.  The actual root of the fuction is approximately 1.7321, meaning our hyrbrid approximation
+ of the root had a close approximation.
 
 
 **Last Modified:** November/2021
