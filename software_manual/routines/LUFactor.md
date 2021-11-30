@@ -6,10 +6,10 @@
 **Language:** Python. The code was built using Pycharm. Can be run in terminal by:
 
 
-    python3 GEwithBackSub.py
+    python3 LUfactor.py
 
 
-**Description/Purpose:** This routine uses Gaussian elination and back substitution to solve for x in a linear system Ax=b
+**Description/Purpose:** This routine uses LU factorization, forward substitution and backwards substitution to solve for x in the linear system Ax=b
 
 **Input:**  The routine needs to be given a square matrix and a vector of the same length as the provided matrix.
 
@@ -18,70 +18,74 @@
 **Usage/Example:**
 
 
-The code shows the following example.  A random square diagonally dominant matrix called A is created that is size 3x3.  An all one vector of 
-length 3 is also created called b.  The routine GEwithBackSub then takes the matrix A and vector b as agruments and solves for x in Ax=b.  To 
-solve, back substitution is needed, so the method GEwithBackSub calls the all ready created method backSub, to do the back substitution for it. 
-A vector x is then returned and printed to the screen 
+The code shows the following example.  A matrix called A and a vector called b are passed into the LUfactor routine.  The LU factor routine then 
+creates the lower and upper triangular matrices used in LU factorization.  The routine then calls the forwardSub routine and passes the lower tirangular
+ matirx L and the vector b to this method.  This creates the vector y.  Then the backSub routine is called and the upper triangular matrix U and the 
+ vector y is passed into that method.  That returns the vector x, which is in return returned from the LUfactor routine to solve the linear system 
+ Ax = b.
 
 
 
-**Implementation/Code:** The following is the code for GEwithBackSub(A, b)
-
-    
-
-    from random import randint
+**Implementation/Code:** The following is the code for LUfactor(A, b)
 
 
-    def GEwithBackSub(A, b):
-        n = len(b)
 
-        # gaussian elimination
-        for k in range(0, n, 1):
+    def LUfactor(A, b):
+        n = len(A)
+
+        # create a matrix that is L + U of the matrix A
+        for k in range(0, n - 1, 1):
             for i in range(k + 1, n, 1):
                 factor = A[i][k] / A[k][k]
-                for j in range(k, n, 1):
+                for j in range(k + 1, n, 1):
                     A[i][j] = A[i][j] - factor * A[k][j]
-                b[i] = b[i] - factor * b[k]
+                A[i][k] = factor
 
+        # create lower and upper triangular matrix
+        L = []
+        U = []
+        for i in range(n):
+            secondL = []
+            secondU = []
+            for j in range(n):
+                secondL.append(0)
+                secondU.append(0)
+            L.append(secondL)
+            U.append(secondU)
 
-        x = backSub(A, b)
+        # give Lower and upper triangular matrices the values they are supposed to have
+        for i in range(n):
+            for j in range(n):
+                if i == j:
+                    U[i][j] = A[i][j]
+                    L[i][j] = 1
+                elif i < j:
+                    U[i][j] = A[i][j]
+                    L[i][j] = 0
+                else:
+                    U[i][j] = 0
+                    L[i][j] = A[i][j]
+
+        # solve Ly = b for y using forward substitution
+        y = forwardSub(L, b)
+
+        # solve Ux = y for x using backwards substitution
+        x = backSub(U, y)
 
         return x
 
 
-    def diagDomMatrix(n):
-        A = []
 
-        for i in range(n):
-            x = []
-            for j in range(n):
-                if j == i:
-                    value = randint(0, 8)
-                    x.append(value)
-                else:
-                    value = randint(0, 8)
-                    x.append(value)
+    def forwardSub(A, b):
+        n = len(A)
+        y = [None] * n
+        for i in range(0, n):
+            sum = b[i]
+            for j in range(0, i):
+                sum = sum - (A[i][j] * y[j])
+            y[i] = sum / A[i][i]
 
-            A.append(x)
-
-        # make the diagonal entry of the matrix greater than the sum of the other entries in the row
-        for i in range(n):
-            sum = 0
-            for j in range(n):
-                if i != j:
-                    sum = sum + A[i][j]
-
-            if A[i][i] <= sum:
-                value = randint(sum, sum + 10)
-                A[i][i] = value
-
-        for i in range(n):
-            for j in range(n):
-                print(A[i][j], end=" ")
-            print()
-        print()
-        # returning the matrix A allows it to be used by other funcitons
-        return A
+        return y
 
 
     def backSub(A, b):
@@ -99,34 +103,21 @@ A vector x is then returned and printed to the screen
 
 
     def main():
-        # random daigonal dominant martix of size 3x3
-        print("The random diagonal dominant matrix")
-        A = diagDomMatrix(3)
-        # b vector size 1x3
-        print("The column vector b")
+        A = [[1, 1, -1], [1, -2, 3], [2, 3, 1]]
         b = [1, 1, 1]
-        print(b)
 
-        print("\nSolution")
-        x = GEwbackSub(A, b)
+        x = LUfactor(A, b)
         print(x)
 
 
     main()
 
 
-Running this routine, the following output was one of the possible outputs that was returned. 
+Running this routine, the following output was returned. 
 
-    The random diagonally dominant matrix
-    4 1 2
-    7 12 4
-    3 7 15
-    
-    The column vector b 
-    1 1 1
     
     Solution
-    0.24214417744916822, -0.07578558225508318, 0.053604436229205174
+    [1.0769230769230769, -0.3076923076923077, -0.23076923076923078]
 
 **Last Modified:** November/2021
 
