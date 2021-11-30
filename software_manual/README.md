@@ -21,6 +21,11 @@ This is the table of contents for the all software manuals
 * [Find All Roots Hybrid Method](routines/AllRootsHybridMethod.md)
 
 #### Linear System Routines
+* [GE with BackSub](routines/GEwithBackSub.md)
+* [LU factorization](routines/LUFactor.md)
+* [LU on Hilbert Matrices](routines/LUonHilbertMatrices.md)
+* [GE using scaled Partial Pivoting](routines/GEAndBackSubScaledPivot.md)
+
 
 
 
