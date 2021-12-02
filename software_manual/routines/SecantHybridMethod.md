@@ -70,7 +70,9 @@ Then tolerance and the last is max iterations.  A root must be encompassed in th
     main()
 
  
+The code produces the following output.
 
+        0.48360372739336516
     
 
 
