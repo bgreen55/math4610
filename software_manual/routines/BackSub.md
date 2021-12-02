@@ -19,14 +19,13 @@ The routine also takes vector of the same length as the provided matrix that con
 **Usage/Example:**
 
 
-The code shows the following example.  A random square diagonally dominant matrix called A is created that is size 3x3.  An all one vector of 
-length 3 is also created called b.  The routine GEwithBackSub then takes the matrix A and vector b as agruments and solves for x in Ax=b.  To 
-solve, back substitution is needed, so the method GEwithBackSub calls the all ready created method backSub, to do the back substitution for it. 
-A vector x is then returned and printed to the screen 
+The code shows the following example.  An upper trianglar matrix is initialized with size 3 by the function that creates a singular upper 
+triangular matrix for each size. It also returns a vector of ones that is the same length as the matrix.  The matrix and the vector are passed 
+into the method backSub(A, b), and the solution vector of the linear system is returned from the method and printed to the screen.
 
 
 
-**Implementation/Code:** The following is the code for GEwithBackSub(A, b)
+**Implementation/Code:** The following is the code for backSub(A, b)
 
 
    
