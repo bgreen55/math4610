@@ -21,6 +21,9 @@ This is the table of contents for the all software manuals
 * [Find All Roots Hybrid Method](routines/AllRootsHybridMethod.md)
 
 #### Linear System Routines
+* [Back Substitution](routines/BackSub.md)
+* [Forward Substitution](routines/ForwardSub.md)
+* [Random Matrices](routines/RandomMatrices.md)
 * [GE with BackSub](routines/GEwithBackSub.md)
 * [LU factorization](routines/LUFactor.md)
 * [LU on Hilbert Matrices](routines/LUonHilbertMatrices.md)
