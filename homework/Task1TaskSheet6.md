@@ -6,7 +6,7 @@
 **Language:** Python. The code was built using Pycharm. Can be run in terminal by:
 
 
-    python3 modedHybridMethod.py
+    python3 main.py
 
 
 **Description/Purpose:** This routine runs the four root finding methods funcIter, bisection, newtons method and secant method to approximate a root of the 
