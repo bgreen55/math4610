@@ -24,6 +24,9 @@ This is the table of contents for the all software manuals
 * [Back Substitution](routines/BackSub.md)
 * [Forward Substitution](routines/ForwardSub.md)
 * [Random Matrices](routines/RandomMatrices.md)
+* [Random Diagonal Matrix](routines/RandDiagMatrix.md)
+* [ToRowEchelonForm](routines/ToRowEchelonForm.md)
+* ******************************
 * [GE with BackSub](routines/GEwithBackSub.md)
 * [LU factorization](routines/LUFactor.md)
 * [LU on Hilbert Matrices](routines/LUonHilbertMatrices.md)
