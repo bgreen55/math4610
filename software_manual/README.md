@@ -44,6 +44,8 @@ This is the table of contents for the all software manuals
 * [Error between Vectors Infinity norm](routines/ErrorInf.md)
 * [Matrix Addition](routines/MatrixAddition.md)
 * [Matrix Subtraction](routines/MatrixSubtraction.md)
+* [Scalar Multiplied to Matrix](routines/ScalarMultMatrix.md)
+* [Transpose Matrix](routines/TransposeMatrix.md)
 
 
 
