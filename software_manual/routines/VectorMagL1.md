@@ -32,7 +32,7 @@ The routine takes a vector as input, sums up each entry in the vector, and retur
     main():
         A = [1, 2, 3]
         
-        print(vectorMagL1(A, B))
+        print(vectorMagL1(A))
         
         
     main()
