@@ -39,6 +39,9 @@ This is the table of contents for the all software manuals
 * [Magnitude of Vector L1 norm](routines/VectorMagL1.md)
 * [Magnitude of Vector L2 norm](routines/VectorMagL2.md)
 * [Magnitude of Vector Infinity norm](routines/VectorMagInf.md)
+* [Error between Vectors L1 norm](routines/ErrorL1.md)
+* [Error between Vectors L2 norm](routines/ErrorL2.md)
+* [Error between Vectors Infinity norm](routines/ErrorInf.md)
 
 
 
