@@ -6,10 +6,10 @@
 **Language:** Python. The code was built using Pycharm. Can be run in terminal by:
 
 
-    python3 vectorMagL12.py
+    python3 vectorMagL2.py
 
 
-**Description/Purpose:** This routine will find the L12 norm magnitude of a vector.  This is also called the shortest path vector.
+**Description/Purpose:** This routine will find the L2 norm magnitude of a vector.  This is also called the shortest path vector.
 
 **Input:** The input takes a vector containing real numbers.
 
@@ -34,7 +34,7 @@ The routine takes a vector as input, squares each of its entries, adds the squar
       
     main():
         A = [1, 2, 3]
-        print(vectorMagL2(A, B))
+        print(vectorMagL2(A))
         
         
     main()
