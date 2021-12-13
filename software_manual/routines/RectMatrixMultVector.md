@@ -70,10 +70,10 @@ matrix infront of the matrix, or it will be multiplied to the matrix after the m
             [5, 6]
         ]
 
-    print(rectMatrixMultVect(t, y))
-    print()
-    print(rectMatrixMultVect(a, b))
-        
+        print(rectMatrixMultVect(t, y))
+        print()
+        print(rectMatrixMultVect(a, b))
+
         
     main()
     
