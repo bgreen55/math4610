@@ -33,6 +33,7 @@ This is the table of contents for the all software manuals
 * [Pivoting on Hilbert Matrices](routines/PartialPivotingagainstHilbert.md)
 * [Vector Addition](routines/VectorAddition.md)
 * [Vector Subtraction](routines/VectorSub.md)
+* [Scalar Multiplied to Vector](routines/ScalarMultVector.md)
 
 
 
