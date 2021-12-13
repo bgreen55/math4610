@@ -42,6 +42,8 @@ This is the table of contents for the all software manuals
 * [Error between Vectors L1 norm](routines/ErrorL1.md)
 * [Error between Vectors L2 norm](routines/ErrorL2.md)
 * [Error between Vectors Infinity norm](routines/ErrorInf.md)
+* [Matrix Addition](routines/MatrixAddition.md)
+* [Matrix Subtraction](routines/MatrixSubtraction.md)
 
 
 
