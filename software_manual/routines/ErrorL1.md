@@ -33,7 +33,7 @@ of vectors.
     main():
         A = [1, 2, 3]
         B = [2, 1, 5]
-        print(errorL1(A))
+        print(errorL1(A, B))
         
         
     main()
