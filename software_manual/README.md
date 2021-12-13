@@ -32,6 +32,7 @@ This is the table of contents for the all software manuals
 * [GE using scaled Partial Pivoting](routines/GEAndBackSubScaledPivot.md)
 * [Pivoting on Hilbert Matrices](routines/PartialPivotingagainstHilbert.md)
 * [Vector Addition](routines/VectorAddition.md)
+* [Vector Subtraction](routines/VectorSub.md)
 
 
 
