@@ -36,6 +36,9 @@ This is the table of contents for the all software manuals
 * [Scalar Multiplied to Vector](routines/ScalarMultVector.md)
 * [Dot Product](routines/DotProduct.md)
 * [Outer Product](routines/OuterProduct.md)
+* [Magnitude of Vector L1 norm](routines/VectorMagL1.md)
+* [Magnitude of Vector L2 norm](routines/VectorMagL2.md)
+* [Magnitude of Vector Infinity norm](routines/VectorMagInf.md)
 
 
 
