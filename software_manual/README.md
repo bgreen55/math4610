@@ -46,6 +46,7 @@ This is the table of contents for the all software manuals
 * [Matrix Subtraction](routines/MatrixSubtraction.md)
 * [Scalar Multiplied to Matrix](routines/ScalarMultMatrix.md)
 * [Transpose Matrix](routines/TransposeMatrix.md)
+* [Rect Matrix mult Vector](routines/RectMatrixMultVector.md)
 
 
 
