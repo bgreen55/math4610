@@ -48,7 +48,7 @@ This is the table of contents for the all software manuals
 * [Transpose Matrix](routines/TransposeMatrix.md)
 * [Rect Matrix mult Vector](routines/RectMatrixMultVector.md)
 * [Product of Rect. Matrices](routines/ProdOfRectMatrices.md)
-* [Jacobi Iteration](routines/JacboiIteration.md)
+* [Jacobi Iteration](routines/JacobiIteration.md)
 
 
 
