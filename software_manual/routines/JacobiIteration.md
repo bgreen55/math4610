@@ -42,26 +42,24 @@ The routine takes the five arguments and iterates from the guess vector to an ap
             error = math.sqrt(error)
             iter += 1
 
-      
-    main():
-        A = [1, 2, 3]
-        B = [4, 5, 6]
-        
-        print(outerProduct(A, B))
-        
-        
+    
+    def main():
+        A = [[2, 1], [1, 3]]
+        b = [23/2, 17]
+        x = [2, 2]
+
+        y = JacobiIteration(A, b, x, .001, 300)
+        print(y)
+
+
     main()
     
     
 The code above returns the following output:
 
-    [
-     [4, 5, 6],
-     [8, 10, 12],
-     [12, 15, 18]
-     ]
+    [2.75, 3.0]
     
-   
+This method does not work as well as I would like it too and I want to revisit it.   
 
 **Last Modified:** December/2021
 
