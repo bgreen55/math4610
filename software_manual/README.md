@@ -49,6 +49,8 @@ This is the table of contents for the all software manuals
 * [Rect Matrix mult Vector](routines/RectMatrixMultVector.md)
 * [Product of Rect. Matrices](routines/ProdOfRectMatrices.md)
 * [Jacobi Iteration](routines/JacobiIteration.md)
+* [Power Method](routines/PowerMethod.md)
+* [Inverse Power Method](routines/InversePowerMethod.md)
 
 
 
