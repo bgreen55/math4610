@@ -51,6 +51,8 @@ This is the table of contents for the all software manuals
 * [Jacobi Iteration](routines/JacobiIteration.md)
 * [Power Method](routines/PowerMethod.md)
 * [Inverse Power Method](routines/InversePowerMethod.md)
+* [L1 Matrix Norm](routines/MatrixNormL1.md)
+* [Infinity Matrix Norm](routines/InfinityMatrixNorm.md)
 
 
 
