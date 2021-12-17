@@ -1,27 +1,27 @@
 
-**Routine Name:**           InfinityMatrixNorm
+**Routine Name:**           L2MatrixNorm
 
 **Author:** Bradley Green
 
 **Language:** Python. The code was built using Pycharm. Can be run in terminal by:
 
 
-    python3 matrixNormL1.py
+    python3 matrixNormL2.py
 
 
-**Description/Purpose:** This routine will calculate the L1 matrix norm of a given matrix. 
+**Description/Purpose:** This routine will calculate the L2 matrix norm of a given matrix. 
 
 **Input:** The input takes a square matrix containing all real numbers. 
 
-**Output:** This routine returns a real number which is the L1 matrix norm.
+**Output:** This routine returns a real number which is the L2 matrix norm.
 
 **Usage/Example:**
 
 The routine takes a square matrix.  In the example we gave it a random square 100x100 diagonally dominant symmetric matrix. The routine the returns 
-the L1 matrix norm.
+the L2 matrix norm.
 
 
-**Implementation/Code:** The following is the code for matrixNormL1(A):
+**Implementation/Code:** The following is the code for matrixNormL2(A):
 
     import math
     from random import randint
